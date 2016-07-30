@@ -8,10 +8,6 @@ html {
     box-sizing: inherit;
 }
 
-.site-container {
-    max-width: 1200px;
-}
-
 .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
@@ -28,7 +24,7 @@ body {
     padding: 0;
     background: #54677a;
     font-family: "Abel", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: #5b5b5b;
 }
 
@@ -46,6 +42,7 @@ h3 {
 
 h1 {
     font-size: 2em;
+    color: white;
 }
 
 h2 {
@@ -56,10 +53,43 @@ h3 {
     font-size: 1.2em;
 }
 
+.group::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.university {
+    font-weight: bold;
+}
+
 #wrapper {
     background: #ffffff;
     padding: 20px;
     margin: 20px auto;
+    max-width: 1000px;
+}
+
+header {
+    background: #333f4a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+#experience,
+#training {
+    background-color: #c7d3e0;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
 }
 
 @media all and (min-width: 600px) {
@@ -72,8 +102,13 @@ h3 {
         width: 80%;;
     }
 }
-@media all and (min-width: 1100px) {
-    #wrapper {
-        width:50%;;
+@media all and (min-width: 1000px) {
+    .bachelors {
+        width: 48%;
+        float: left;
+    }
+    .masters {
+        width: 48%;
+        float: right;
     }
 }
