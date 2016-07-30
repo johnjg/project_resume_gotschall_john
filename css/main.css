@@ -59,6 +59,11 @@ h3 {
     display: block;
 }
 
+.char23,
+.char24 {
+    color: #c7d3e0;
+}
+
 .university {
     font-weight: bold;
 }
