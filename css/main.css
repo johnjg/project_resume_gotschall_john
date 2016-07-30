@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.site-container {
+    max-width: 1200px;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #050505;
+    font-family: "Abel", sans-serif;
+    font-size: 18px;
+    color: #5b5b5b;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    color: #222222;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+#wrapper {
+    background: #ffffff;
+    padding: 0 10px 0 10px;
+    margin: 0 auto;
+}
