@@ -64,6 +64,14 @@ h3 {
     color: #c7d3e0;
 }
 
+.toggle1 {
+    background: #54677a;
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 10px;;
+}
+
 .university {
     font-weight: bold;
 }
@@ -93,8 +101,16 @@ header img {
     padding: 20px;
 }
 
+#education ul {
+    list-style: none;
+}
+
 section {
     padding: 20px;
+}
+
+ul {
+    list-style: square;
 }
 
 @media all and (min-width: 600px) {
